@@ -1,0 +1,145 @@
+.container {
+	width: 1230px;
+	margin: auto;
+}
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar {
+	display: flex;
+}
+.navbar p {
+	margin-right: 40px;
+}
+.contacts {
+	display: flex;
+}
+.contactsItem {
+	display: flex;
+	margin-left: 36px;
+}
+.contactsInfo {
+	margin-left: 12px;
+}
+.contactsInfo P {
+	margin: 0;
+}
+.hero {
+	/* background: url(../assets/bg-image.png); */
+	background-image: url(../../assets/bg-image.png);
+	height: 1000px;
+
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-size: cover;
+}
+body {
+	margin: 0;
+	margin: auto;
+}
+.values {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	gap: 20px;
+	background-color: rgb(212, 212, 212);
+}
+
+.colored-letter span {
+	color: coral;
+}
+.MainText {
+	font-size: 72px;
+	font-weight: bold;
+	margin-left: 395px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.MainText {
+	align-items: center;
+	margin-top: 390px;
+}
+.MainText p {
+	margin: 10px;
+}
+.under {
+	max-width: 595px;
+	padding: 10px;
+	margin-left: 399px;
+	font-size: 20px;
+	height: 90px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button {
+	margin-left: 320px;
+	padding: 90px;
+}
+.border {
+	border: 1px solid black;
+	padding: 10px;
+	width: 263px;
+	border-radius: 6px;
+	height: 50px;
+}
+.border span {
+	margin-left: 25px;
+}
+.second {
+	border: 1px solid black;
+	padding: 13px;
+	width: 263px;
+	border-radius: 6px;
+	margin-left: 300px;
+	margin-top: -32px;
+	background-color: coral;
+}
+.Quality {
+	max-width: 220px;
+	margin-right: 1250px;
+	margin-top: 40px;
+}
+.Safety {
+	max-width: 220px;
+	margin-top: -185px;
+}
+.Comfort {
+	max-width: 200px;
+	margin-left: 1250px;
+	margin-top: -200px;
+}
+
+.formTitle {
+	text-align: center;
+}
+.formTitle {
+	font-weight: bold;
+
+	font-size: 28px;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 150px;
+	border: 1px solid;
+	padding: 48px 60px;
+}
+.formData {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.formInput {
+	display: flex;
+	flex-direction: column;
+}
+button {
+	background-color: coral;
+}
