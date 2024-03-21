@@ -30,12 +30,11 @@
 .hero {
 	/* background: url(../assets/bg-image.png); */
 	background-image: url(../../assets/bg-image.png);
-	height: 1000px;
-
 	width: 100%;
 	background-repeat: no-repeat;
 	background-position-x: center;
 	background-size: cover;
+	height: 988px;
 }
 body {
 	margin: 0;
