@@ -1,8 +1,14 @@
-var myVar = 10
-console.log(myVar)
-var b = myVar * 9
-console.log(b)
+var mobileMenu = document.querySelector('.mobileMenu')
+var mobileMenuOpened = document.querySelector('.mobileMenuOpened')
+var mobileMenuClose = document.querySelector('.mobileMenuClose')
 
-var myName = 'Aelina'
+mobileMenu.addEventListener('click', function () {
+	mobileMenuOpened.classList.add('visible')
+	document.body.classList.add('overflowHidden')
+})
 
-console.log('hello my name is' + myName)
+mobileMenuClose.addEventListener('click', function () {
+	mobileMenuOpened.classList.remove('visible')
+	document.body.classList.remove('overflowHidden')
+})
+
