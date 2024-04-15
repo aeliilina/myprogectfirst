@@ -45,11 +45,10 @@
 	font-size: 24px;
 	margin-bottom: 20px;
 }
-.Mobilecontacts{
+.Mobilecontacts {
 	display: flex;
 	flex-direction: column;
 	margin-left: 100px;
-	
 }
 .header {
 	display: flex;
@@ -201,7 +200,6 @@ button {
 	border-radius: 8px;
 	cursor: pointer;
 }
-
 .Services {
 	padding-bottom: 80px;
 	display: flex;
@@ -228,24 +226,25 @@ button {
 	width: 100%;
 	justify-content: space-between;
 }
-.servicesItem {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	border: 1px solid;
-	border: none;
-	width: 285px;
-	font-weight: bold;
-	height: 285px;
-	justify-content: center;
-	background-color: white;
+.servicesItems{
+    display: flex;
+    border: 1px solid;
+}
+.block{
+	width: 300px ;
+	height: 300px;
+	background-color: gray;
+	font-size: 24px;
+	text-align: center;
+	padding: 50px ;
 	transition: 2s ease;
 }
-
-.servicesItem:hover {
+.block:hover{
 	cursor: pointer;
-	background: url(/assets/back.jpeg);
+	background: url(/assets/back.jpeg)
 }
+
+
 .servicesMore {
 	display: flex;
 	gap: 40px;
@@ -369,12 +368,13 @@ button {
 	margin: 0px;
 	margin-bottom: 24px;
 }
-.container {
+.CompaniesIcon {
 	display: flex;
-	flex-direction: row;
-}
-.Companies {
 	justify-content: space-between;
+	padding: 50px;
+	width: 100%;
+}
+.companiesImg {
 }
 
 @media (max-width: 750px) {
@@ -446,9 +446,8 @@ button {
 	.mobileMenu {
 		display: block;
 	}
-
 }
-@media (max-width : 651px) {
+@media (max-width: 651px) {
 	.container {
 		padding: 0 15px;
 		width: unset;
@@ -472,7 +471,7 @@ button {
 		display: block;
 	}
 }
-@media (max-width : 1500px) {
+@media (max-width: 1500px) {
 	.container {
 		padding: 0 15px;
 		width: unset;
